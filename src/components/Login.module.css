@@ -1,0 +1,90 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #84fab0, #8fd3f4);
+  }
+  
+  .LoginPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #333;
+  }
+  
+  .LoginPage h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  .Login {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+  }
+  
+  .Login form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Login form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .Login form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .Login form input:focus {
+    border-color: #84fab0;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(132, 250, 176, 0.8);
+  }
+  
+  .Login form button {
+    padding: 10px;
+    background: #84fab0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 50vh;
+    transition: background 0.3s ease;
+  }
+  
+  .Login form button:hover {
+    background: #67d697;
+  }
+  
+  .Login form p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  .Login form p a {
+    text-decoration: none;
+    color: #67d697;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .Login form p a:hover {
+    color: #555;
+  }
+  

@@ -1,0 +1,103 @@
+/* Home.module.css */
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #0d6efd; /* Bootstrap primary color */
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navLinks {
+  display: flex;
+  gap: 15px;
+}
+
+.navButton {
+  background-color: white;
+  color: #0d6efd;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navButton:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* Main Content Styling */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  font-size: 2.5rem;
+  color: #495057; /* Muted dark color */
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+/* Features Section Styling */
+.featuresSection {
+  background-color: #f8f9fa; /* Light background */
+  padding: 40px 20px;
+}
+
+.featuresHeader {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #343a40;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.featureCard {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+}
+
+.featureCard h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #0d6efd;
+}
+
+.featureCard p {
+  font-size: 1rem;
+  color: #6c757d;
+}

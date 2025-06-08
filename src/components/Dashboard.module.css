@@ -1,0 +1,162 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Sleek and professional font */
+    background: linear-gradient(to bottom, #3a7bd5, #00d2ff); /* Elegant blue gradient */
+    color: #333; /* Neutral dark gray text */
+    height: 100%;
+    min-height: 100vh;
+}
+
+/* Dashboard Container */
+.dashboardContainer {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styling */
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.header p {
+    color: #f9f9f9;
+    font-size: 18px;
+}
+
+/* Add Books Button */
+.addBooksButton {
+    background-color: #ff6b6b; /* Modern coral red */
+    color: white;
+    border: none;
+    border-radius: 30px; /* Rounded button */
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.addBooksButton:hover {
+    background-color: #e05656; /* Slightly darker hover effect */
+    transform: scale(1.05); /* Hover zoom effect */
+}
+
+/* Book List Container */
+.bookList {
+    background: #ffffff; /* Clean white container */
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 100%;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.bookList h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333; /* Neutral dark gray */
+}
+
+/* Book Items */
+
+.bookItems {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: flex-start; 
+    padding: 0;
+    list-style: none;
+}
+
+/* Styling for each book item */
+.bookItem {
+    background-color: #f4f4f4; 
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: calc(30% - 20px); /* Three items per row (adjust as needed) */
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.bookItem:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-5px); /* Lift effect */
+}
+
+
+.bookItem:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Emphasized shadow */
+    transform: translateY(-5px); /* Hover lift effect */
+}
+
+.bookItem h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #3a7bd5; /* Matches gradient color */
+    margin-bottom: 15px;
+}
+
+.bookItem p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 16px;
+}
+
+.bookItem p strong {
+    color: #333; /* Dark text */
+}
+
+/* Action Buttons Styling */
+.button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.editButton, .deleteButton {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-right: 10px;
+}
+
+.editButton {
+    background-color: #28a745; /* Vibrant green for edit */
+    color: white;
+}
+
+.editButton:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.deleteButton {
+    background-color: #dc3545; /* Bright red for delete */
+    color: white;
+}
+
+.deleteButton:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
